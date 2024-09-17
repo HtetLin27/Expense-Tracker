@@ -13,13 +13,7 @@ export const TransitionList = () => {
         <ul>
           {transactions.map((transaction)=>(
             <Transaction key={transaction.id} transaction={transaction} />
-          ))}
-          <li>
-            Cash
-            <span>-$400</span>
-            <button>x</button>
-          </li>
-          
+          ))}    
         </ul>
     </>
   )
